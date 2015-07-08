@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>McMurtry College</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <!-- boilerplate -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      /*
+
+      /* === Page === */
+
+      [id*=content] h1, h2, h3, h4, h5, h6, p {
+        padding-left: 6px;
+      }
+
+      /* Navbar */
+      
+      
+      .navbar strong {
+        font-size: 14px;
+      }
+      
+      .dropdown-menu > li > a {
+        font-size: 12px;
+      }
+      
+      .dropdown-menu > .navbar-text {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
+      
+      
+      
+      /* Body */
+      body {
+        padding-top: 55px;
+        /* Background gradient */
+        background: #3c1168; /* Old browsers
+        background: -moz-linear-gradient(left, #3c1168 0%, #482e84 50%, #3c1168 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3c1168), color-stop(50%,#482e84), color-stop(100%,#3c1168)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left, #3c1168 0%,#482e84 50%,#3c1168 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left, #3c1168 0%,#482e84 50%,#3c1168 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left, #3c1168 0%,#482e84 50%,#3c1168 100%); /* IE10+ */
+        background: linear-gradient(to right, #3c1168 0%,#482e84 50%,#3c1168 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c1168', endColorstr='#3c1168',GradientType=1 ); /* IE6-9 */
+        /* Apple-esque font */
+        font: 12px/18px "Lucida Grande", "Lucida Sans Unicode",
+        Helvetica, Arial, Verdana, sans-serif;
+      }
+
+      #container-header {
+        margin-top: -6px;
+        margin-bottom: 3px;
+      }
+
+      #container-body {
+        background: white;
+        border-radius: 3px;
+        /* Logo padding */
+        padding-bottom: 25px;
+      }
+
+      /* Adequate bottom of page margins */
+      .footer-height{
+        height: 87px;
+      }
+
+      #container-footer img{
+        position: relative;
+        bottom: 39px;
+      }
+
+      /* Footer */
+      footer {
+        padding-top: 9px;
+        text-align: center;
+      }
+
+      /* === Etc === */
+      /* Images */
+      .sImg {
+        margin: 6px;
+      }
+
+      /* Text */
+      .sHeading {
+        font-size: 48px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        color: #444;
+        margin: 0 0 0 0;
+        padding: 9px;
+        font-weight: 100;
+      }
+
+      .sHidden {
+        visibility: hidden;
+      }
+
+      /* Adjectives */
+      .sRight {
+        float: right;
+      }
+      
+      /* Font... */
+      
+      @font-face {
+        font-family: 'McM';
+        src: url(assets/fonts/mcm.woff);
+      }
+      
+
+
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    
+    <!-- Custom style sheet that can be overriden by js -->
+    <link id="dummyStyle" href="" rel="stylesheet">
+    <!-- amd assets -->
+    <script src="js/libs/sUtils.js"> </script>
+    <script data-main="js/main" src="js/libs/require.js"></script>
+    <!-- TODO: delete me -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34433692-1']);
+      _gaq.push(['_setAccount', 'UA-32460705-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+     </script>
+
+    <title> McMurtry College </title>
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <!-- Mobile menu -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <!-- three horizontal bars at the end -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- logo -->
+          <a class="navbar-brand" href="#">McMurtry College</a>
+        </div>
+        
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav nav">
+
+              <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#about"
+                data-target="#">
+                <strong>About </strong>
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#about">About </a></li>
+                <li><a href="#burtAndDeedee">Burt & Deedee</a></li>
+                <!--<li><a href="#charter">Charter</a></li>-->
+                <!--<a>Tour</a>-->
+              </ul>
+              </li>
+
+              <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <strong>Adult Leadership</strong>
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#ateam">Adult Team</a></li>
+                <!--<li><a href="#masters">Karim Al-Zand & Dereth Phillips - Masters</a></li>
+                <li><a href="#tabitha">Tabitha Stanley - College Coordinator</a></li>
+                <li><a href="#gibson"> Brian and Alana - Head Resident Fellows</a></li>
+                <li><a href="#simonozge">Simon and Ozge - Resident Associates </a></li>
+                <li><a href="#brad"> Brad - Resident Associate </a></li> -->
+                <li><a href="#associates">McMurtry Associates</a></li>
+                <li><a href="#das">Divisonal Advisors</a></li>
+                <li><a href="#fyms">First Year Mentors</a></li>
+                <!--<li class="divider"></li>
+                <li class="navbar-text"> Students </li>
+                <li><a href="#paa"> Peer Academic Advisors </a></li>
+                <li><a href="#fellows"> Academic Fellows </a></li>
+                <li><a href="#smr"> Student Maintenance Representative </a></li> -->
+              </ul>
+              </li>
+              
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>Student Leadership</strong> <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#members">Government -- McMinistry</a></li>
+                  <li><a href="#court">Court -- CJ & AJs</a></li>
+                  <li><a href="#committees">Committee Heads</a></li>
+                  <li><a href="#paa"> Peer Academic Advisors </a></li>
+                  <li><a href="#fellows"> Academic Fellows </a></li>
+                  <li><a href="#rha"> Rice Health Advisors </a></li>
+                  <li><a href="#pca"> Peer Career Advisors </a></li>
+                  <li><a href="#smr"> Student Maintenance Representative </a></li>
+                  <li><a href="#oweek"> O-Week Coordinators and Advisors</a></li>
+                </ul>
+              </li>
+              
+
+              <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <strong>McMinistry</strong>
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#constitution">Constitution</a></li>
+                <li><a href="#budget">Budget</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#roles">Roles</a></li>
+                <li><a href="#committees">Committees</a></li>
+                <li><a href="#housing">Housing Information</a></li>
+                <li><a href="#minutes">Archived Minutes</a></li>
+              </ul>
+              </li>
+              
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>Resources</strong> <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#initiative">Initiative Request</a></li>
+                  <li><a href="#roomReservation">Room Reservations</a></li>
+                  <li><a href="#techInfo">Technology</a></li>
+                  <li><a href="assets/docs/tax_exempt_form.pdf">Tax Exemption Form</a></li>
+                  <li><a href="http://dining.rice.edu/uploadedFiles/Dining/Residential_Dining/Dining_Menus/West_Menu.pdf">West Servery Menu</a></li>
+                  <li><a href="#crestImages">Crest Images</a></li>
+                </ul>
+              </li>
+              
+
+              <!--<li>
+                <a href="#resource"><strong>Resources</strong></a>
+              </li>-->
+              <!---
+              <li>
+                <a href="#events"><strong>Events</strong></a>
+              </li>
+            -->
+              <!--<li>-->
+                <!--<a href="http://www.mcmurtryoweek.com" target="_blank"><strong>O-Week</strong></a>-->
+              <!--</li>-->
+              
+
+              
+
+            </ul> <!-- /nav-pills -->
+          </div> <!--/nav-collapse -->
+        </div> <!-- /container-->
+    </div> <!-- /navbar -->
+
+    <div id="container-header" class="container">
+    </div>
+
+    <div id="container-body" class="container">
+
+        <div id="container-content" class="row">
+          <div class="col-md-6"> Loading... </div>
+        </div>
+
+        <footer class="sHidden">
+          <hr />
+          McMurtry College • MS 761 • Rice University <br />
+          1605 Rice Blvd. • Houston, TX 77005  <br />
+          Phone: (713) 348-4583 • Fax: (713) 348-3135 <br />
+        </footer>
+
+    </div> <!-- /container -->
+
+    <div id="container-footer" class="container sHidden">
+      <div class="row">
+        <div class="col-md-12 footer-height">
+          <img src="assets/img/crest_trans_small.png" alt="" class="center"/>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
