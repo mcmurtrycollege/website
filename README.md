@@ -1,5 +1,5 @@
-McMurtry Site:
-===============
+McMurtry College Website
+========================
 Read the guildelines.md section for coding guidelines
 
 Layout:
@@ -14,7 +14,3 @@ js
 
   libs
     - js dependencies
-
-
-
-
