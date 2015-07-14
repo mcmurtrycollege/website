@@ -23,7 +23,9 @@ define(function (require) {
 		aboutTemplate = require("text!templates/about/about.html"),
 		charterTemplate = require("text!templates/about/charter.html"),
 		burtAndDeedeeTemplate = require("text!templates/about/burt_and_deedee.html"),
-		oweekTemplate = require("text!templates/people/oweek_advisors.html"),
+		//oweekTemplate = require("text!templates/people/oweek_advisors.html"),
+		oweekWelcomeTemplate = require("text!templates/o-week/welcome.html")
+
 		
 		// people
 		//ateamTemplate = require("text!templates/people/ateam.html"),
