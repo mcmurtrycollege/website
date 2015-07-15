@@ -27,6 +27,7 @@ define(function (require) {
 		oweekWelcomeTemplate = require("text!templates/o-week/welcome.html")
 		oweekExplanationTemplate = require("text!templates/o-week/explanation.html")
 		oweekVideosTemplate = require("text!templates/o-week/videos.html")
+		oweekBookTemplate = require("text!templates/o-week/book.html")
 
 		
 		// people
@@ -64,7 +65,8 @@ define(function (require) {
 		//photosTemplate = require("text!templates/gallery/photos.html")
 		//photosView=require("views/photos");
 
-	var validTemplatePrefix = ['about', 'charter','constitution', 'contacts','burtAndDeedee','hrf','oweek', 'members','court','pca','rha','housing','roles','masterApp','oweekWelcome', 'oweekExplanation', 'oweekVideos'],
+	var validTemplatePrefix = ['about', 'charter','constitution', 'contacts','burtAndDeedee','hrf','oweek',
+	'members','court','pca','rha','housing','roles','masterApp','oweekWelcome','oweekExplanation','oweekVideos', 'oweekBook'],
 		validProfilePrefix = ['masters', 'simonozge', 'gibson', 'brad', 'tabitha','paa','smr','fellows','associates','das','fyms'],
 		validResourcePrefix = ['initiative', 'roomReservation', 'techInfo','equipmentRental','crestImages'],
 		validTemplate = [];
